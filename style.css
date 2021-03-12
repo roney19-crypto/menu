@@ -1,0 +1,27 @@
+* { margin: 0;  padding: 0;}
+
+.main {}
+
+.navber {
+    overflow: hidden;
+    background: rgba(206, 101, 101, 0.247);
+}
+
+.navber ul {
+    text-align: center;
+    list-style: none;
+}
+
+.navber ul li {
+    display: inline-block;
+    font-size: 17px;
+    color: black;
+    padding: 15px;
+    text-align: left;
+}
+
+.navber ul li:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(78, 70, 70);
+    transition: 1.5s;
+}
